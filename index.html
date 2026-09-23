@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="רחל מימראן — קונדיטורית ביתית בקדימה. עוגות ועוגיות מעוצבות בהזמנה אישית." />
+  <title>רחל מימראן | קונדיטוריה ביתית</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">דלג לתוכן</a>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="logo" href="#top" aria-label="רחל מימראן — חזרה לראש העמוד">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-text">רחל מימראן</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="תפריט ניווט">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="ניווט ראשי">
+        <ul>
+          <li><a href="#about">אודות</a></li>
+          <li><a href="#portfolio">תיק עבודות</a></li>
+          <li><a href="#menu">תפריט</a></li>
+          <li><a href="#reviews">המלצות</a></li>
+          <li><a href="#contact">צור קשר</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-media" aria-hidden="true">
+        <img
+          src="1000127504.jpg"
+          alt=""
+          width="1920"
+          height="1080"
+          fetchpriority="high"
+        />
+        <div class="hero-scrim"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-brand">רחל מימראן</p>
+        <h1 id="hero-heading">עוגות ועוגיות שנאפות באהבה מהבית</h1>
+        <p class="hero-lead">קונדיטוריה ביתית בקדימה — עוגות מעוצבות, עוגיות וקינוחים לאירועים מיוחדים.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#menu">לתפריט</a>
+          <a class="btn btn-ghost" href="#contact">הזמנה אישית</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="section-inner about-grid">
+        <div class="about-visual reveal">
+          <img
+            src="1000127513.jpg"
+            alt="פרוסת עוגת גבינה בסגנון באסק"
+            width="900"
+            height="1100"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-copy reveal">
+          <p class="eyebrow">אודותיי</p>
+          <h2 id="about-heading">אופה מהבית בקדימה</h2>
+          <p>
+            שלום, אני רחל מימראן — קונדיטורית ביתית בקדימה. אני מתמחה בעוגות מעוצבות ובעוגיות
+            שנאפות בהזמנה אישית, עם דגש על טעמים עשירים, מרקמים עדינים ועיצוב שמרגיש חגיגי וחם.
+          </p>
+          <p>
+            כל הזמנה מקבלת יחס אישי: מהתאמת הטעמים ועד הפרטים הקטנים שעושים את ההבדל.
+            בין אם מדובר ביום הולדת, אירוע משפחתי או מארז מתנה — אני כאן כדי להפוך את הרגע למתוק יותר.
+          </p>
+          <ul class="about-highlights">
+            <li>עוגות מעוצבות בהזמנה</li>
+            <li>עוגת שוקולד בשכבות</li>
+            <li>עוגיות וקינוחים אישיים</li>
+            <li>אפייה ביתית טרייה מקדימה</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio section" id="portfolio" aria-labelledby="portfolio-heading">
+      <div class="section-inner">
+        <header class="section-header reveal">
+          <p class="eyebrow">תיק עבודות</p>
+          <h2 id="portfolio-heading">מבחר יצירות מהמטבח</h2>
+          <p class="section-lead">חמש קטגוריות של עוגות, עוגיות וקינוחים — בחרו קטגוריה כדי לסנן.</p>
+        </header>
+
+        <div class="portfolio-filters reveal" role="tablist" aria-label="סינון קטגוריות">
+          <button type="button" class="filter-btn is-active" role="tab" aria-selected="true" data-filter="all">הכל</button>
+          <button type="button" class="filter-btn" role="tab" aria-selected="false" data-filter="cakes">עוגות מעוצבות</button>
+          <button type="button" class="filter-btn" role="tab" aria-selected="false" data-filter="birthday">עוגות יום הולדת</button>
+          <button type="button" class="filter-btn" role="tab" aria-selected="false" data-filter="cookies">עוגיות</button>
+          <button type="button" class="filter-btn" role="tab" aria-selected="false" data-filter="cups">קינוחי כוסות</button>
+          <button type="button" class="filter-btn" role="tab" aria-selected="false" data-filter="gifts">מארזי מתנה</button>
+        </div>
+
+        <div class="portfolio-grid" id="portfolio-grid">
+          <article class="portfolio-item reveal" data-category="cakes">
+            <img src="1000127513.jpg" alt="פרוסת עוגת גבינה באסק" width="800" height="1000" loading="lazy" />
+            <div class="portfolio-meta">
+              <span>עוגות מעוצבות</span>
+              <h3>עוגת גבינה באסק</h3>
+            </div>
+          </article>
+          <article class="portfolio-item reveal is-visible" data-category="cakes">
+            <img
+              src="chocolate-layers-cake.jpg"
+              onerror="this.onerror=null;this.src='chocolate-layers-cake.svg';"
+              alt="עוגת שוקולד בשכבות עם קרם שוקולד וסוכריות צבעוניות"
+              width="800"
+              height="1000"
+              loading="lazy"
+            />
+            <div class="portfolio-meta">
+              <span>עוגות מעוצבות</span>
+              <h3>עוגת שוקולד בשכבות</h3>
+            </div>
+          </article>
+          <article class="portfolio-item reveal is-visible" data-category="cookies">
+            <img src="diamant-shkedim.jpg" alt="עוגיות דיאמנט שקדים עם שקדים וסוכר גבישי" width="800" height="1000" loading="lazy" />
+            <div class="portfolio-meta">
+              <span>עוגיות</span>
+              <h3>דיאמנט שקדים</h3>
+            </div>
+          </article>
+          <article class="portfolio-item reveal" data-category="cookies">
+            <img src="1000127496.jpg" alt="עוגיות מגולגלות במילוי תמרים" width="800" height="1000" loading="lazy" />
+            <div class="portfolio-meta">
+              <span>עוגיות</span>
+              <h3>עוגיות מגולגלות</h3>
+            </div>
+          </article>
+          <article class="portfolio-item reveal" data-category="gifts">
+            <img src="1000127504.jpg" alt="צנצנת עוגיות ומבחר מאפים ביתיים" width="800" height="1000" loading="lazy" />
+            <div class="portfolio-meta">
+              <span>מארזי מתנה</span>
+              <h3>מארז עוגיות ביתי</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu section" id="menu" aria-labelledby="menu-heading">
+      <div class="section-inner">
+        <header class="section-header reveal is-visible">
+          <p class="eyebrow">תפריט</p>
+          <h2 id="menu-heading">מה אפשר להזמין</h2>
+          <p class="section-lead">תפריט ביתי ומתוק — עוגות, עוגיות וקינוחים בהזמנה אישית מקדימה.</p>
+        </header>
+
+        <div class="menu-grid">
+          <article class="menu-category reveal is-visible">
+            <h3 class="menu-category-title">עוגות</h3>
+            <ul class="menu-items">
+              <li class="menu-item menu-item-featured">
+                <div class="menu-item-head">
+                  <h4>עוגת גבינה בסגנון באסק <span class="menu-badge">המומלצת</span></h4>
+                  <p class="menu-item-desc">עוגה קרמית עם קרום שרוף — לא כמו עוגת גבינה רגילה.</p>
+                </div>
+                <ul class="menu-prices">
+                  <li><span>קטנה (6–8 מנות)</span><strong>₪85</strong></li>
+                  <li><span>בינונית (10–12 מנות)</span><strong>₪130</strong></li>
+                  <li><span>גדולה (16–18 מנות)</span><strong>₪175</strong></li>
+                  <li class="menu-note"><span>תוספת עונה (תותים / פיסטוק / סילאן ואגוזים)</span><strong>+₪15</strong></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <div class="menu-item-head">
+                  <h4>עוגייה ענקית</h4>
+                  <p class="menu-item-desc">עוגייה עגולה ענקית, נחתכת כמו עוגה — מושלמת ליום הולדת.</p>
+                </div>
+                <ul class="menu-prices">
+                  <li><span>קוטר 20 ס״מ (8–10 מנות)</span><strong>₪95</strong></li>
+                  <li><span>קוטר 26 ס״מ (14–16 מנות)</span><strong>₪140</strong></li>
+                </ul>
+                <p class="menu-flavors">טעמים: שוקולד צ׳יפס · שוקולד כפול וחלבה · חמאת בוטנים וריבה</p>
+              </li>
+              <li class="menu-item menu-item-featured">
+                <div class="menu-item-head">
+                  <h4>עוגת שוקולד בשכבות <span class="menu-badge">חדש</span></h4>
+                  <p class="menu-item-desc">ביסקוויט שוקולד, קרם שוקולד וציפוי שוקולד מבריק — עוגה מרשימה בשכבות, מושלמת לימי הולדת וחגיגות.</p>
+                </div>
+                <ul class="menu-prices">
+                  <li><span>קטנה (8 מנות)</span><strong>₪90</strong></li>
+                  <li><span>בינונית (12 מנות)</span><strong>₪135</strong></li>
+                  <li><span>גדולה (16 מנות)</span><strong>₪165</strong></li>
+                </ul>
+                <p class="menu-flavors">אפשרויות: קלאסית · עם פירות יער · עם פרלינים</p>
+              </li>
+              <li class="menu-item">
+                <div class="menu-item-head">
+                  <h4>עוגת שוקולד, טחינה וחלבה</h4>
+                  <p class="menu-item-desc">עוגה ביתית עשירה עם טעמים ישראליים מוכרים.</p>
+                </div>
+                <ul class="menu-prices">
+                  <li><span>קטנה (8 מנות)</span><strong>₪90</strong></li>
+                  <li><span>בינונית (12 מנות)</span><strong>₪135</strong></li>
+                </ul>
+              </li>
+            </ul>
+          </article>
+
+          <article class="menu-category reveal is-visible">
+            <h3 class="menu-category-title">עוגיות</h3>
+            <ul class="menu-items">
+              <li class="menu-item">
+                <div class="menu-item-head">
+                  <h4>דיאמנט שקדים</h4>
+                  <p class="menu-item-desc">עוגיות חמאה פריכות עם שקדים וסוכר גבישי — קלאסיקה ביתית ואלגנטית.</p>
+                </div>
+                <ul class="menu-prices">
+                  <li><span>מארז 12 יחידות</span><strong>₪50</strong></li>
+                  <li><span>מארז 24 יחידות</span><strong>₪90</strong></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <div class="menu-item-head">
+                  <h4>עוגיות מגולגלות — מילוי פרימיום</h4>
+                  <p class="menu-item-desc">עוגיות בצק חמאה עם מילויים משתנים.</p>
+                </div>
+                <ul class="menu-prices">
+                  <li><span>מארז 12 יחידות</span><strong>₪45</strong></li>
+                  <li><span>מארז 24 יחידות</span><strong>₪80</strong></li>
+                  <li><span>צנצנת עוגיות (מארז מתנה)</span><strong>₪55</strong></li>
+                </ul>
+                <p class="menu-flavors">מילויים: תמרים ואגוזים · חלבה ושוקולד · לוטוס · סילאן ופקנים</p>
+              </li>
+              <li class="menu-item">
+                <div class="menu-item-head">
+                  <h4>עוגיות חמאה פרימיום</h4>
+                  <p class="menu-item-desc">עוגיות רכות ועשירות — 3–4 סוגים במארז אחד.</p>
+                </div>
+                <ul class="menu-prices">
+                  <li><span>מארז 15 יחידות</span><strong>₪50</strong></li>
+                  <li><span>מארז 30 יחידות</span><strong>₪90</strong></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <div class="menu-item-head">
+                  <h4>רוגלach gourmet</h4>
+                  <p class="menu-item-desc">רוגלach קטנים עם מילויים מיוחדים.</p>
+                </div>
+                <ul class="menu-prices">
+                  <li><span>מארז 12 יחידות</span><strong>₪48</strong></li>
+                  <li><span>מארז 24 יחידות</span><strong>₪85</strong></li>
+                </ul>
+                <p class="menu-flavors">מילויים: שוקולד לבן ופיסטוק · קרמל מלוח · תות ושוקולד</p>
+              </li>
+            </ul>
+          </article>
+
+          <article class="menu-category reveal is-visible">
+            <h3 class="menu-category-title">קינוחים אישיים</h3>
+            <ul class="menu-items">
+              <li class="menu-item">
+                <div class="menu-item-head">
+                  <h4>כוסות קינוח</h4>
+                  <p class="menu-item-desc">מנות אישיות — נוח לאירועים, שבת ומשרד.</p>
+                </div>
+                <ul class="menu-prices">
+                  <li><span>יחידה</span><strong>₪20</strong></li>
+                  <li><span>מארז 6</span><strong>₪110</strong></li>
+                  <li><span>מארז 12</span><strong>₪200</strong></li>
+                </ul>
+                <p class="menu-flavors">סוגים: טירמיסו · מוס שוקולד · מלבי מודרני (חלב, מי ורדים, פיסטוק)</p>
+              </li>
+              <li class="menu-item">
+                <div class="menu-item-head">
+                  <h4>מגש קינוחים לשבת / לאירוע</h4>
+                  <p class="menu-item-desc">מבחר עוגיות, כוסות קינוח ופרוסות עוגה — מוכן להגשה.</p>
+                </div>
+                <ul class="menu-prices">
+                  <li><span>מגש קטן (6–8 מנות)</span><strong>₪120</strong></li>
+                  <li><span>מגש בינוני (12–15 מנות)</span><strong>₪180</strong></li>
+                  <li><span>מגש גדול (20+ מנות)</span><strong>₪250</strong></li>
+                </ul>
+              </li>
+            </ul>
+          </article>
+
+          <article class="menu-category reveal is-visible">
+            <h3 class="menu-category-title">מארזי מתנה</h3>
+            <ul class="menu-items">
+              <li class="menu-item">
+                <div class="menu-item-head">
+                  <h4>מארז מתנה ״מתוק מהבית״</h4>
+                  <p class="menu-item-desc">צנצנת עוגיות + 4 כוסות קינוח, או עוגייה ענקית קטנה + עוגיות.</p>
+                </div>
+                <ul class="menu-prices">
+                  <li><span>לפי הרכב</span><strong>₪130–₪160</strong></li>
+                </ul>
+              </li>
+            </ul>
+          </article>
+        </div>
+
+        <aside class="menu-order reveal is-visible" aria-label="פרטי הזמנה">
+          <h3 class="menu-order-title">פרטי הזמנה</h3>
+          <ul class="menu-order-list">
+            <li><strong>הזמנה מראש:</strong> לפחות 3 ימים לעוגות, 48 שעות לעוגיות וכוסות</li>
+            <li><strong>איסוף:</strong> קדימה — הפעמון 2</li>
+            <li><strong>משלוח:</strong> באזור קדימה והסביבה (בתיאום, תוספת משלוח)</li>
+          </ul>
+          <a class="btn btn-primary" href="#contact">להזמנה — צרו קשר</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="reviews section" id="reviews" aria-labelledby="reviews-heading">
+      <div class="section-inner">
+        <header class="section-header reveal">
+          <p class="eyebrow">המלצות</p>
+          <h2 id="reviews-heading">מה הלקוחות מספרים</h2>
+          <p class="section-lead">חוויות אמיתיות מלקוחות שחגגו איתי רגעים מתוקים.</p>
+        </header>
+
+        <div class="reviews-track" aria-label="המלצות לקוחות">
+          <figure class="review-card reveal">
+            <blockquote>
+              <p>״העוגה ליום ההולדת של הבת שלי הייתה מושלמת — יפהפייה וטעימה בטירוף. כולם שאלו מאיפה הזמנתי.״</p>
+            </blockquote>
+            <figcaption>
+              <strong>נועה כהן</strong>
+              <span>קדימה</span>
+            </figcaption>
+          </figure>
+          <figure class="review-card reveal">
+            <blockquote>
+              <p>״הזמנתי מארז עוגיות כמתנה לעבודה. האריזה הייתה מרשימה והטעם — בדיוק כמו בקונדיטוריה.״</p>
+            </blockquote>
+            <figcaption>
+              <strong>דניאל לוי</strong>
+              <span>נתניה</span>
+            </figcaption>
+          </figure>
+          <figure class="review-card reveal">
+            <blockquote>
+              <p>״רחל מקצועית, סבלנית ומדויקת בפרטים. העוגה הגיעה בדיוק כמו שתיארתי — ואפילו יותר יפה.״</p>
+            </blockquote>
+            <figcaption>
+              <strong>מיכל אברהם</strong>
+              <span>תל מונד</span>
+            </figcaption>
+          </figure>
+          <figure class="review-card reveal">
+            <blockquote>
+              <p>״קינוחי הכוסות לאירוע המשפחתי היו הכוכב של הערב. טריים, מעוצבים וטעימים עד האחרון.״</p>
+            </blockquote>
+            <figcaption>
+              <strong>יוסי שפירא</strong>
+              <span>כפר יונה</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="section-inner contact-grid">
+        <div class="contact-info reveal">
+          <p class="eyebrow">צור קשר</p>
+          <h2 id="contact-heading">בואו נתכנן משהו מתוק</h2>
+          <p class="section-lead">אשמח לשמוע על האירוע שלכם ולהתאים הצעה אישית.</p>
+
+          <ul class="contact-details">
+            <li>
+              <span class="detail-label">טלפון</span>
+              <a href="tel:+972524764656" dir="ltr">052-4764656</a>
+            </li>
+            <li>
+              <span class="detail-label">כתובת</span>
+              <address>הפעמון 2, קדימה, ישראל</address>
+            </li>
+            <li>
+              <span class="detail-label">שעות מענה</span>
+              <span>א׳–ה׳ · 09:00–18:00</span>
+            </li>
+          </ul>
+
+          <div class="socials" aria-label="רשתות חברתיות">
+            <a class="social-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="אינסטגרם">
+              <svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22"><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5M12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10m0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg>
+              <span>Instagram</span>
+            </a>
+            <a class="social-link" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="פייסבוק">
+              <svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22"><path fill="currentColor" d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5Z"/></svg>
+              <span>Facebook</span>
+            </a>
+            <a class="social-link" href="https://wa.me/972524764656" target="_blank" rel="noopener noreferrer" aria-label="וואטסאפ">
+              <svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22"><path fill="currentColor" d="M19.05 4.91A9.816 9.816 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01Zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.264 8.264 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.183 8.183 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.76-1.85-.2-.48-.4-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.88 2.4 1 2.56.12.17 1.75 2.67 4.23 3.74 2.49 1.07 2.49.71 2.94.66.45-.05 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+              <span>WhatsApp</span>
+            </a>
+            <a class="social-link" href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="טיקטוק">
+              <svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22"><path fill="currentColor" d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48Z"/></svg>
+              <span>TikTok</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">שם מלא</label>
+            <input id="name" name="name" type="text" autocomplete="name" required placeholder="השם שלכם" />
+          </div>
+          <div class="form-row">
+            <label for="phone">טלפון</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="050-0000000" dir="ltr" />
+          </div>
+          <div class="form-row">
+            <label for="email">אימייל</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="name@example.com" dir="ltr" />
+          </div>
+          <div class="form-row">
+            <label for="message">הודעה</label>
+            <textarea id="message" name="message" rows="5" required placeholder="ספרו לי על האירוע, התאריך והטעמים שאתם אוהבים…"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">שליחת הודעה</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-brand">רחל מימראן</p>
+      <p>קונדיטוריה ביתית · הפעמון 2, קדימה</p>
+      <p class="footer-copy">© <span id="year"></span> רחל מימראן. כל הזכויות שמורות.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
